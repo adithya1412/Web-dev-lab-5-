@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <button id="update" onclick ="change();"></button>
+    <input id=" add" type="text">
+    <p id = "pa">count = 0</p>
+    <script type="text/javascript">
+    change = function(){
+        varcount = 0;
+        var myp;
+        myp = document.querySelector('#add').value;
+        for(i=0  , i<myp.length , i++){
+        count++;}
+       var para;
+      para = document.querySelector('#pa');
+      para.innerHTML="COUNT="+COUNT;}
+     </script>
+</body>
+</html>
